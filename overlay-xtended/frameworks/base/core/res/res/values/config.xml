@@ -79,7 +79,7 @@
      <!-- Smart Charing is available -->
     <bool name="config_smartChargingAvailable">true</bool>
     
-    !-- Whether device supports variable refresh rate -->
+    <!-- Whether device supports variable refresh rate -->
     <bool name="config_hasVariableRefreshRate">true</bool>
 
 </resources>
