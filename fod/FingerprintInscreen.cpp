@@ -40,7 +40,7 @@
 #define DC_DIMMING_PATH "/sys/class/drm/card0-DSI-1/dimlayer_bl_en"
 
 namespace vendor {
-namespace lineage {
+namespace lucid {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -204,5 +204,5 @@ Return<int32_t> FingerprintInscreen::getSize() {
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace lucid
 }  // namespace vendor
