@@ -22,7 +22,7 @@
 
 namespace vendor {
 namespace lucid {
-namespace touch {
+namespace biometrics {
 namespace V1_0 {
 namespace implementation {
 
@@ -63,6 +63,6 @@ Return<bool> TouchscreenGesture::setGestureEnabled(
 
 }  // namespace implementation
 }  // namespace V1_0
-}  // namespace touch
+}  // namespace biometrics
 }  // namespace lucid
 }  // namespace vendor

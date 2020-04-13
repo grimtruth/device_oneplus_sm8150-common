@@ -24,7 +24,7 @@
 
 namespace vendor {
 namespace lucid {
-namespace touch {
+namespace biometrics {
 namespace V1_0 {
 namespace implementation {
 
@@ -34,7 +34,7 @@ using ::android::sp;
 
 class TouchscreenGesture : public ITouchscreenGesture {
   public:
-    // Methods from ::vendor::lucid::touch::V1_0::ITouchscreenGesture follow.
+    // Methods from ::vendor::lucid::biometrics::V1_0::ITouchscreenGesture follow.
     Return<void> getSupportedGestures(getSupportedGestures_cb resultCb) override;
     Return<bool> setGestureEnabled(const ::vendor::lucid::touch::V1_0::Gesture& gesture,
                                    bool enabled) override;
@@ -50,8 +50,8 @@ class TouchscreenGesture : public ITouchscreenGesture {
 
 }  // namespace implementation
 }  // namespace V1_0
-}  // namespace touch
+}  // namespace biometrics
 }  // namespace lucid
 }  // namespace vendor
 
-#endif  // VENDOR_LUCID_TOUCH_V1_0_TOUCHSCREENGESTURE_H
+#endif  // VENDOR_LUCID_BIOMETRICS_V1_0_TOUCHSCREENGESTURE_H

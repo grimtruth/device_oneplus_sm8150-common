@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lucid.touch@1.0-service.oneplus_msmnile"
+#define LOG_TAG "vendor.lucid.biometrics.fingerprint.inscreen@1.0-service.oneplus_msmnile"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
