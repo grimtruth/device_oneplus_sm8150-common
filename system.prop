@@ -82,7 +82,7 @@ ro.nfc.port=I2C
 ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Priv-app permissions whitelist
-# ro.control_privapp_permissions=enforce
+# ro.control_privapp_permissions=disable
 
 # Radio
 DEVICE_PROVISIONED=1
@@ -95,7 +95,7 @@ telephony.lteOnCdmaDevice=1,1
 # RCS
 persist.rcs.supported=1
 
-# SafteyNet prop
+# SafteyNet prop and props to spoof pixel 4xl to enable nga and callscreen
 ro.opa.eligible_device=true
 ro.com.google.ime.theme_id=5
 ro.com.google.ime.height_ratio=1.0
